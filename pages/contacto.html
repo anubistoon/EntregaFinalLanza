@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=""Sanatorio Pyxis: Atención médica integral y de calidad en Uruguay. Servicios de salud personalizados, emergencias, afiliaciones y más. Confíe en nuestro equipo de profesionales para su bienestar.">
+        <meta name="keywords" content="sanatorio Pyxis, atención médica, salud en Uruguay, servicios médicos, emergencia móvil, afiliaciones, policlínicas, historia clínica, bienestar, cuidados de salud">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css.map">
+        <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="../scss/styles.css">
+        <title>Sanatorio Pixis - Contacto</title>
+    </head>
+<body>
+    <header class="containter-fluid">
+        <div class="row h-100">
+            <div class="d-flex align-items-center justify-content-center"><p class="text-light mb-0 p-2 fs-6">Dir: Bv. España 2323  &nbsp|&nbsp  Tel: 0800 PYXIS</p></div>
+        </div>
+    </header>
+    <main>
+        <div class="row h-100">
+                <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary p-3 h-auto" id="menu">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="../assets/images/logo.png" class="img-fluid h-50" alt="Logo Pyxis">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                              </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Socios
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="afiliaciones.html">Afiliaciones</a></li>
+                                <li><a class="dropdown-item" href="historia-clinica.html">Historia Clínica</a></li>
+                                <li><a class="dropdown-item" href="reservas.html">Reservas</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sanatorio
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="capacitaciones.html">Capacitaciones</a></li>
+                                <li><a class="dropdown-item" href="emergencia-movil.html">Emergencia Móvil</a></li>
+                                <li><a class="dropdown-item" href="policlinicas.html">Policlínicas</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                          </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="number" placeholder="Usuario" aria-label="Usuario">
+                          <input class="form-control me-2" type="contraseña" placeholder="Contraseña" aria-label="Contraeña">
+                          <button class="btn btn-outline-light" type="submit">Ingresar</button>
+                        </form>
+                      </div>
+                    </div>
+                </nav>
+                <div id="banner" class="container h-100">
+                    <img class="banner image-fluid w-100" src="../assets/images/banner-contacto.webp" alt="Contacto"></img>
+                </div>
+                <div class="formulario">
+                <div class="container mt-5 col-md-10 col-lg-6">
+                    <h2 class="mb-4">Formulario de consultas</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre y apellido" required>
+                        </div>             
+                        <div class="mb-3">
+                            <label class="form-label">¿Es socio?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="socio" id="socioSi" value="si">
+                                <label class="form-check-label" for="socioSi">
+                                    Sí
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="socio" id="socioNo" value="no">
+                                <label class="form-check-label" for="socioNo">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="numeroSocio" class="form-label">Nº Socio</label>
+                            <input type="number" class="form-control" id="numeroSocio" placeholder="Ingrese su número de socio">
+                        </div>
+                        <div class="mb-3">
+                            <label for="consulta" class="form-label">Consulta</label>
+                            <textarea class="form-control" id="consulta" rows="4" placeholder="Ingrese su consulta" required></textarea>
+                        </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>     
+    </main>
+    <footer class="container-fluid w-100 d-flex align-items-center justify-content-center flex-wrap">
+            <p class="fs-6 px-3 pt-3">Copyright - Coderhouse 2024</p>
+            <div id="iconos">
+              <a href="https://wa.me/59899002101"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.instagram.com/pyxisportal/"><i class="bi bi-instagram"></i></a>
+              <a href="mailto:info@pyxis.tech"><i class="bi bi-envelope"></i></a>
+            </div>
+    </footer>
+    <script src="../scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>
